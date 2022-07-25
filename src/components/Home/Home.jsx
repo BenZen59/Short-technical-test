@@ -12,15 +12,6 @@ export default function Home() {
       >
         Books
       </NavLink>
-      <NavLink
-        to='/chapters'
-        className='headerLink'
-        style={({ isActive }) => ({
-          background: isActive ? 'aliceblue' : '#dce4eb',
-        })}
-      >
-        Chapters
-      </NavLink>
     </div>
   );
 }
