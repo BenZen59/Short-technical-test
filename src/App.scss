@@ -1,0 +1,13 @@
+.header {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-around;
+  &Link {
+    border: solid black;
+    color: black;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 250ms background-color ease;
+  }
+}
