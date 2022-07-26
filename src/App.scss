@@ -17,12 +17,35 @@ h3 {
   padding: 4px 8px;
   width: 250px;
   margin: 20px;
+  border-radius: 8px;
 }
 
 h5 {
   margin: 20px;
 }
 
-.chapitre {
+button {
+  border: none;
+  padding: 4px 8px;
+  width: 160px;
+  height: 50px;
+  background-color: rgb(17, 170, 241);
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
   margin: 20px;
+}
+
+.cover {
+  width: 10%;
+  height: 10%;
+  margin: 20px;
+  border: solid 1px;
+}
+
+.coverchapter {
+  width: 20%;
+  height: 20%;
+  margin: 20px;
+  border: solid 1px;
 }
