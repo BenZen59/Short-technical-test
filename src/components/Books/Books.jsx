@@ -71,7 +71,7 @@ export default function Books() {
           ({ valid, levels }) =>
             valid === true && levels[0].name.includes(subjectsBooks)
         )
-        .sort((a, b) => (a.subjects.name > b.subjects.name ? 1 : -1))
+        .sort((a, b) => (a.subjects[0].name > b.subjects[0].name ? 1 : -1))
         .map(({ id, displayTitle, url }) => (
           <div key={id}>
             <h3>{displayTitle}</h3>
